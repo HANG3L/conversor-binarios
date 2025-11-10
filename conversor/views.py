@@ -10,6 +10,7 @@ def convertir_binario(request):
         if form.is_valid():
             binario = form.cleaned_data['numero_binario']
             try:
+                #Conversiones
                 decimal = int(binario, 2)
                 octal = oct(decimal)[2:]
                 hexadecimal = hex(decimal)[2:].upper()
