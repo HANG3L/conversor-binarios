@@ -28,7 +28,6 @@ conversor-binarios/       ==> Proyecto Django
 │
 ├── conversor/            ==> Aplicación principal
 │ ├── templates/
-│ │ └── conversor/
 │ │ └── index.html
 │ ├── templatetags/
 │ │ ├── init.py
@@ -48,6 +47,9 @@ conversor-binarios/       ==> Proyecto Django
 
 ```bash
 git clone <url-del-repo>
+```
+
+```bash
 cd <repo-clonado>
 ```
 
@@ -55,7 +57,13 @@ cd <repo-clonado>
 
 ```bash
 python -m venv venv
+```
+
+```bash
 source venv/bin/activate  # Linux/Mac
+```
+
+```bash
 venv\Scripts\activate     # Windows
 ```
 
